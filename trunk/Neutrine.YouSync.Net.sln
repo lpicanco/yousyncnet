@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neutrine.YouSync.Library", "Neutrine.YouSync.Library\Neutrine.YouSync.Library.csproj", "{CEAE43F1-8353-4FAE-B688-33180E9C4587}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neutrine.YouSync.Tests", "Neutrine.YouSync.Tests\Neutrine.YouSync.Tests.csproj", "{918BF8D5-4281-4831-946F-911B3042C11F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5E8D6327-1053-457D-B79E-1A9B540FEF2F}"
+	ProjectSection(SolutionItems) = preProject
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+		Neutrine.YouSync.Net.vsmdi = Neutrine.YouSync.Net.vsmdi
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Neutrine.YouSync.Net.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEAE43F1-8353-4FAE-B688-33180E9C4587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEAE43F1-8353-4FAE-B688-33180E9C4587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEAE43F1-8353-4FAE-B688-33180E9C4587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEAE43F1-8353-4FAE-B688-33180E9C4587}.Release|Any CPU.Build.0 = Release|Any CPU
+		{918BF8D5-4281-4831-946F-911B3042C11F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{918BF8D5-4281-4831-946F-911B3042C11F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{918BF8D5-4281-4831-946F-911B3042C11F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{918BF8D5-4281-4831-946F-911B3042C11F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
